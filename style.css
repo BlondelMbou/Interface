@@ -1,0 +1,50 @@
+body{
+    background: url(132.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.inscription{
+    width: 500px;
+    height: 400px;
+    margin-top: 150px;
+    margin-left: 450px;
+    background:transparent;
+    border-radius: 15px;
+    text-align: center;
+
+}
+.container img{
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+
+}
+input[type="text"], input[type="password"]{
+    width: 240px;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 12px; 
+    border-radius: 50px;
+    border: 1px solid #001;
+    padding-left: 40px;
+}
+input[type="submit"]{
+    padding: 15px 25px;
+    background:  green;
+    color:  yellow; 
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+a{
+    text-decoration:none ;
+    color: yellow;
+}
+a:hover{
+    color:blue;
+}
+
